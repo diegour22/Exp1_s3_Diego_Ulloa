@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E551552-C6CC-713F-77AE-DC45F3D7ED0A" name="Medico">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>D9C83BCF-2889-D1A6-8E2F-4D1B0412FB29</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rut_personal" id="3F7BED4C-6368-6347-0D01-BA0D673BB16C">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>2910C07B-FFD3-EC9D-509B-7CD5F54649F0</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3CFB70B-4DA2-E95B-7C16-EF982C5FFA13" referredColumn="EF755BF5-F390-A20D-215A-7846EACA0C7C"/>
+</associations>
+</Column>
+<Column name="Especialidad" id="3AE84483-13D4-09A6-40A2-D9233A4DB9A2">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>3CA70D00-9831-0DF8-4E4F-A2E7F7AB4E6F</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supervisor" id="7E390D1C-CDD8-8AA1-57C1-EEC50AF7FEF8">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>95FA7E39-E773-DFD4-1AB2-A688EC7F305F</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medico_Rut_personal" id="E2B7ABCF-5317-3757-7210-1E8509366EEB">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>A875724B-FBDE-96FF-721F-DD7DDF95A1DF</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1E34E67-2AA8-1F58-1111-55A688DAFF81" referredColumn="3F7BED4C-6368-6347-0D01-BA0D673BB16C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="942124A3-0CC0-810E-8A45-7D87DCF74845" name="Medico_PK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>6AA8316B-A12F-44CC-45A5-CAA51BCC4890</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7BED4C-6368-6347-0D01-BA0D673BB16C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C53B023E-1EEA-2B9C-3660-BB172E4A699C" name="Medico_Personal_FK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>0A393977-5D60-166D-5E25-03370254FB54</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7BED4C-6368-6347-0D01-BA0D673BB16C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EA0DD49-FAF8-D9CC-DAB9-4E731D970940" name="Medico_Medico_FK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>321A754F-4529-7042-8D73-9F7583FFF909</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B7ABCF-5317-3757-7210-1E8509366EEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

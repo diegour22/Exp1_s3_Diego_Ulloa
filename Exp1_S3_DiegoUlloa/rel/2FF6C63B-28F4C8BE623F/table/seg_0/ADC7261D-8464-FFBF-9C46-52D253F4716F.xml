@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADC7261D-8464-FFBF-9C46-52D253F4716F" name="Personal">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>FFCF6796-E72C-15FF-CA56-FB3E02ED475A</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rut_personal" id="EF755BF5-F390-A20D-215A-7846EACA0C7C">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>2910C07B-FFD3-EC9D-509B-7CD5F54649F0</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="FB1208B2-8372-3DDA-7AC4-B57E5667345B">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>5A044912-84DB-E238-86FC-B919D085A628</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_ingreso" id="269DDD7C-EA11-B4C0-CC5D-7EAFC7AEFD1C">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>569D1D0A-3E77-AC03-ED1F-3186608DF297</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Residencia_ID_Residencia" id="4F9AC644-4C25-C2E1-A3B5-9D412ABD3EBB">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>DF7A94C3-8A68-1EA9-E9C8-74AF10A9FFAF</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CAD8B21-E17C-72F1-EE43-0D4875F7D5B3" referredColumn="5E8CB80D-849B-FB74-60E1-EBE5B6BED99C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE0961E8-2632-85F5-3979-24F04751A0F2" name="Personal_PK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>6AA8316B-A12F-44CC-45A5-CAA51BCC4890</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF755BF5-F390-A20D-215A-7846EACA0C7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F3251DB-5A46-6B09-784C-63C9349810BC" name="Personal_Residencia_FK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>77067C5E-B7E3-EFDA-B46C-09D8F75DA616</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9AC644-4C25-C2E1-A3B5-9D412ABD3EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

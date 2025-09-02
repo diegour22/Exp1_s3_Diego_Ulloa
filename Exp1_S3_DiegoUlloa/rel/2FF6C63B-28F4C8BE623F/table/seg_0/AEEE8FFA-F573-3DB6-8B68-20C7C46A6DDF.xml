@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEEE8FFA-F573-3DB6-8B68-20C7C46A6DDF" name="Anexo">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>A793B130-EE04-72D5-F5E0-54957D8E4B6B</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Anexo" id="EDEEC805-0E93-F851-CCB9-B0694D2292A8">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>1245D9E1-8D6F-D125-9E2F-C0364D448C17</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_inicio_estadia" id="441D506F-6996-1E2B-C423-6CD8793BA229">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>AA093E01-431F-5C2A-0CA0-1663CB402AE0</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_termino_estadia" id="DC62A428-81BC-201F-56F0-7B38BB752FB7">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>9C2118D5-95B4-F473-ACB5-6DAB4476960A</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observaciones" id="E3CC7123-7D14-3DAD-3F9B-C7179F947652">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>FD14EF08-6CE3-F637-71E6-0DDA8FC6125A</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrato_ID_Contrato" id="A7C965A3-34AB-9957-F01E-9E58D8391249">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>2C692FE0-69AF-B4A9-C89F-4D054315DC2F</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F415CE8-D8B8-7C9D-F099-35F724E0276C" referredColumn="9734046E-85B7-29F4-A0CC-5251708E1A3D"/>
+</associations>
+</Column>
+<Column name="Residente_RUT" id="8793C5F5-B7D1-AE61-B193-F41CF9EC8116">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>BC59984A-367C-4016-68D2-9EF990BBE9C2</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECAFF596-C61F-DEA4-B916-BB26863C3340" referredColumn="86DD9C37-39D8-BFC2-F844-AD39DC3FD4F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EAB093D-EDDC-2703-8FCA-9D9717758F20" name="Anexo_PK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>1D0962E6-4993-64D8-F0B7-4CECA98BA773</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDEEC805-0E93-F851-CCB9-B0694D2292A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C24F71ED-D2D3-2662-ECF2-8402BD5F7E82" name="Anexo__IDX">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C199046D-C5C8-D8B9-0376-F6D3AB09E817</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A7C965A3-34AB-9957-F01E-9E58D8391249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7756FD1C-816A-EEB0-D8D8-F3EC2CFF6252" name="Anexo_Contrato_FK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>C199046D-C5C8-D8B9-0376-F6D3AB09E817</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7C965A3-34AB-9957-F01E-9E58D8391249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFF329F-14E2-417F-5867-EFFDC4CDC57F" name="Anexo_Residente_FK">
+<createdBy>diego</createdBy>
+<createdTime>2025-08-28 02:21:37 UTC</createdTime>
+<generatorID>77D6840B-4A98-D7D6-9D54-F94E0F713C6F</generatorID>
+<ownerDesignName>Exp1_S3_DiegoUlloa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8793C5F5-B7D1-AE61-B193-F41CF9EC8116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
